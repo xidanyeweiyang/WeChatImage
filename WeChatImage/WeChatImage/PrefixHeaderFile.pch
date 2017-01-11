@@ -1,0 +1,30 @@
+//
+//  PrefixHeaderFile.pch
+//  WeChatImage
+//
+//  Created by CPZX008 on 17/1/4.
+//  Copyright © 2017年 xboker. All rights reserved.
+//
+
+#ifndef PrefixHeaderFile_pch
+#define PrefixHeaderFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "HeaderFile.h"
+#import "PhotoGroupsViewController.h"
+#import "PhotosListViewController.h"
+#import "PhotoFullViewController.h"
+#import <Photos/Photos.h>
+#import "PHAsset+AddFlag.h"
+#import "ImageHelper.h"
+
+
+
+
+
+
+
+
+#endif /* PrefixHeaderFile_pch */

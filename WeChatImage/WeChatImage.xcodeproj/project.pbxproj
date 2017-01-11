@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6803EEB31E1C8A13005E0F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EEB21E1C8A13005E0F1F /* main.m */; };
+		6803EEB61E1C8A13005E0F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EEB51E1C8A13005E0F1F /* AppDelegate.m */; };
+		6803EEB91E1C8A13005E0F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EEB81E1C8A13005E0F1F /* ViewController.m */; };
+		6803EEBC1E1C8A13005E0F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6803EEBA1E1C8A13005E0F1F /* Main.storyboard */; };
+		6803EEBE1E1C8A13005E0F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6803EEBD1E1C8A13005E0F1F /* Assets.xcassets */; };
+		6803EEC11E1C8A13005E0F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6803EEBF1E1C8A13005E0F1F /* LaunchScreen.storyboard */; };
+		6803EECC1E1C8A13005E0F1F /* WeChatImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EECB1E1C8A13005E0F1F /* WeChatImageTests.m */; };
+		6803EED71E1C8A13005E0F1F /* WeChatImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EED61E1C8A13005E0F1F /* WeChatImageUITests.m */; };
+		6803EEF21E1C97E2005E0F1F /* PhotoGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EEF11E1C97E2005E0F1F /* PhotoGroupsViewController.m */; };
+		6803EEF51E1C97FB005E0F1F /* PhotosListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EEF41E1C97FB005E0F1F /* PhotosListViewController.m */; };
+		6803EEF81E1C9808005E0F1F /* PhotoFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EEF71E1C9808005E0F1F /* PhotoFullViewController.m */; };
+		6803EEFB1E1C9C11005E0F1F /* GroupModle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EEFA1E1C9C11005E0F1F /* GroupModle.m */; };
+		6803EF041E1C9D93005E0F1F /* ListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EF031E1C9D93005E0F1F /* ListCollectionViewCell.m */; };
+		6803EF0E1E1CC2F1005E0F1F /* PHAsset+AddFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EF0D1E1CC2F1005E0F1F /* PHAsset+AddFlag.m */; };
+		6803EF111E1CE77D005E0F1F /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EF101E1CE77D005E0F1F /* ImageHelper.m */; };
+		6803EF141E1CEF6A005E0F1F /* PhotoListFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EF131E1CEF6A005E0F1F /* PhotoListFooterView.m */; };
+		6803EF171E1CF798005E0F1F /* FullImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EF161E1CF798005E0F1F /* FullImageCollectionViewCell.m */; };
+		6803EF1A1E1CFE2C005E0F1F /* FullImageFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803EF191E1CFE2C005E0F1F /* FullImageFooterView.m */; };
+		68FDD24F1E1DDFA6001490F1 /* FullImageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FDD24E1E1DDFA6001490F1 /* FullImageHeaderView.m */; };
+		68FDD2551E1E2B36001490F1 /* ChoosedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FDD2541E1E2B36001490F1 /* ChoosedCollectionViewCell.m */; };
+		68FDD2581E1E31E4001490F1 /* PhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FDD2571E1E31E4001490F1 /* PhotoGroupTableViewCell.m */; };
+		68FDD25B1E1E4949001490F1 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FDD25A1E1E4949001490F1 /* CustomViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6803EEC81E1C8A13005E0F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6803EEA61E1C8A13005E0F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6803EEAD1E1C8A13005E0F1F;
+			remoteInfo = WeChatImage;
+		};
+		6803EED31E1C8A13005E0F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6803EEA61E1C8A13005E0F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6803EEAD1E1C8A13005E0F1F;
+			remoteInfo = WeChatImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6803EEAE1E1C8A13005E0F1F /* WeChatImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6803EEB21E1C8A13005E0F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6803EEB41E1C8A13005E0F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6803EEB51E1C8A13005E0F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6803EEB71E1C8A13005E0F1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6803EEB81E1C8A13005E0F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6803EEBB1E1C8A13005E0F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6803EEBD1E1C8A13005E0F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6803EEC01E1C8A13005E0F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6803EEC21E1C8A13005E0F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6803EEC71E1C8A13005E0F1F /* WeChatImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6803EECB1E1C8A13005E0F1F /* WeChatImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatImageTests.m; sourceTree = "<group>"; };
+		6803EECD1E1C8A13005E0F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6803EED21E1C8A13005E0F1F /* WeChatImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6803EED61E1C8A13005E0F1F /* WeChatImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatImageUITests.m; sourceTree = "<group>"; };
+		6803EED81E1C8A13005E0F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6803EEE71E1C8ADB005E0F1F /* HeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		6803EEEC1E1C8D30005E0F1F /* PrefixHeaderFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeaderFile.pch; sourceTree = "<group>"; };
+		6803EEF01E1C97E2005E0F1F /* PhotoGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGroupsViewController.h; sourceTree = "<group>"; };
+		6803EEF11E1C97E2005E0F1F /* PhotoGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGroupsViewController.m; sourceTree = "<group>"; };
+		6803EEF31E1C97FB005E0F1F /* PhotosListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosListViewController.h; sourceTree = "<group>"; };
+		6803EEF41E1C97FB005E0F1F /* PhotosListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosListViewController.m; sourceTree = "<group>"; };
+		6803EEF61E1C9808005E0F1F /* PhotoFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoFullViewController.h; sourceTree = "<group>"; };
+		6803EEF71E1C9808005E0F1F /* PhotoFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoFullViewController.m; sourceTree = "<group>"; };
+		6803EEF91E1C9C11005E0F1F /* GroupModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupModle.h; sourceTree = "<group>"; };
+		6803EEFA1E1C9C11005E0F1F /* GroupModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupModle.m; sourceTree = "<group>"; };
+		6803EF021E1C9D93005E0F1F /* ListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCollectionViewCell.h; sourceTree = "<group>"; };
+		6803EF031E1C9D93005E0F1F /* ListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCollectionViewCell.m; sourceTree = "<group>"; };
+		6803EF0C1E1CC2F1005E0F1F /* PHAsset+AddFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+AddFlag.h"; sourceTree = "<group>"; };
+		6803EF0D1E1CC2F1005E0F1F /* PHAsset+AddFlag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+AddFlag.m"; sourceTree = "<group>"; };
+		6803EF0F1E1CE77D005E0F1F /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		6803EF101E1CE77D005E0F1F /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
+		6803EF121E1CEF6A005E0F1F /* PhotoListFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListFooterView.h; sourceTree = "<group>"; };
+		6803EF131E1CEF6A005E0F1F /* PhotoListFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListFooterView.m; sourceTree = "<group>"; };
+		6803EF151E1CF798005E0F1F /* FullImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageCollectionViewCell.h; sourceTree = "<group>"; };
+		6803EF161E1CF798005E0F1F /* FullImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageCollectionViewCell.m; sourceTree = "<group>"; };
+		6803EF181E1CFE2C005E0F1F /* FullImageFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageFooterView.h; sourceTree = "<group>"; };
+		6803EF191E1CFE2C005E0F1F /* FullImageFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageFooterView.m; sourceTree = "<group>"; };
+		68FDD24D1E1DDFA6001490F1 /* FullImageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageHeaderView.h; sourceTree = "<group>"; };
+		68FDD24E1E1DDFA6001490F1 /* FullImageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageHeaderView.m; sourceTree = "<group>"; };
+		68FDD2531E1E2B36001490F1 /* ChoosedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosedCollectionViewCell.h; sourceTree = "<group>"; };
+		68FDD2541E1E2B36001490F1 /* ChoosedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosedCollectionViewCell.m; sourceTree = "<group>"; };
+		68FDD2561E1E31E4001490F1 /* PhotoGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGroupTableViewCell.h; sourceTree = "<group>"; };
+		68FDD2571E1E31E4001490F1 /* PhotoGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGroupTableViewCell.m; sourceTree = "<group>"; };
+		68FDD2591E1E4949001490F1 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		68FDD25A1E1E4949001490F1 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6803EEAB1E1C8A13005E0F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6803EEC41E1C8A13005E0F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6803EECF1E1C8A13005E0F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6803EEA51E1C8A13005E0F1F = {
+			isa = PBXGroup;
+			children = (
+				6803EEB01E1C8A13005E0F1F /* WeChatImage */,
+				6803EECA1E1C8A13005E0F1F /* WeChatImageTests */,
+				6803EED51E1C8A13005E0F1F /* WeChatImageUITests */,
+				6803EEAF1E1C8A13005E0F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6803EEAF1E1C8A13005E0F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6803EEAE1E1C8A13005E0F1F /* WeChatImage.app */,
+				6803EEC71E1C8A13005E0F1F /* WeChatImageTests.xctest */,
+				6803EED21E1C8A13005E0F1F /* WeChatImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6803EEB01E1C8A13005E0F1F /* WeChatImage */ = {
+			isa = PBXGroup;
+			children = (
+				6803EEB41E1C8A13005E0F1F /* AppDelegate.h */,
+				6803EEB51E1C8A13005E0F1F /* AppDelegate.m */,
+				6803EEB71E1C8A13005E0F1F /* ViewController.h */,
+				6803EEB81E1C8A13005E0F1F /* ViewController.m */,
+				68FDD2591E1E4949001490F1 /* CustomViewController.h */,
+				68FDD25A1E1E4949001490F1 /* CustomViewController.m */,
+				68FDD2531E1E2B36001490F1 /* ChoosedCollectionViewCell.h */,
+				68FDD2541E1E2B36001490F1 /* ChoosedCollectionViewCell.m */,
+				6803EEEC1E1C8D30005E0F1F /* PrefixHeaderFile.pch */,
+				6803EEE71E1C8ADB005E0F1F /* HeaderFile.h */,
+				6803EEBA1E1C8A13005E0F1F /* Main.storyboard */,
+				6803EEBD1E1C8A13005E0F1F /* Assets.xcassets */,
+				6803EEEE1E1C97B4005E0F1F /* PhotoGroups */,
+				6803EEEF1E1C97B4005E0F1F /* PhotosList */,
+				6803EEED1E1C97B4005E0F1F /* FullImage */,
+				6803EF0B1E1CC2D6005E0F1F /* Category */,
+				6803EEBF1E1C8A13005E0F1F /* LaunchScreen.storyboard */,
+				6803EEC21E1C8A13005E0F1F /* Info.plist */,
+				6803EEB11E1C8A13005E0F1F /* Supporting Files */,
+			);
+			path = WeChatImage;
+			sourceTree = "<group>";
+		};
+		6803EEB11E1C8A13005E0F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6803EEB21E1C8A13005E0F1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6803EECA1E1C8A13005E0F1F /* WeChatImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				6803EECB1E1C8A13005E0F1F /* WeChatImageTests.m */,
+				6803EECD1E1C8A13005E0F1F /* Info.plist */,
+			);
+			path = WeChatImageTests;
+			sourceTree = "<group>";
+		};
+		6803EED51E1C8A13005E0F1F /* WeChatImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6803EED61E1C8A13005E0F1F /* WeChatImageUITests.m */,
+				6803EED81E1C8A13005E0F1F /* Info.plist */,
+			);
+			path = WeChatImageUITests;
+			sourceTree = "<group>";
+		};
+		6803EEED1E1C97B4005E0F1F /* FullImage */ = {
+			isa = PBXGroup;
+			children = (
+				6803EEF61E1C9808005E0F1F /* PhotoFullViewController.h */,
+				6803EEF71E1C9808005E0F1F /* PhotoFullViewController.m */,
+				68FDD24D1E1DDFA6001490F1 /* FullImageHeaderView.h */,
+				68FDD24E1E1DDFA6001490F1 /* FullImageHeaderView.m */,
+				6803EF151E1CF798005E0F1F /* FullImageCollectionViewCell.h */,
+				6803EF161E1CF798005E0F1F /* FullImageCollectionViewCell.m */,
+				6803EF181E1CFE2C005E0F1F /* FullImageFooterView.h */,
+				6803EF191E1CFE2C005E0F1F /* FullImageFooterView.m */,
+			);
+			path = FullImage;
+			sourceTree = "<group>";
+		};
+		6803EEEE1E1C97B4005E0F1F /* PhotoGroups */ = {
+			isa = PBXGroup;
+			children = (
+				6803EEF01E1C97E2005E0F1F /* PhotoGroupsViewController.h */,
+				6803EEF11E1C97E2005E0F1F /* PhotoGroupsViewController.m */,
+				6803EEF91E1C9C11005E0F1F /* GroupModle.h */,
+				6803EEFA1E1C9C11005E0F1F /* GroupModle.m */,
+				68FDD2561E1E31E4001490F1 /* PhotoGroupTableViewCell.h */,
+				68FDD2571E1E31E4001490F1 /* PhotoGroupTableViewCell.m */,
+			);
+			path = PhotoGroups;
+			sourceTree = "<group>";
+		};
+		6803EEEF1E1C97B4005E0F1F /* PhotosList */ = {
+			isa = PBXGroup;
+			children = (
+				6803EEF31E1C97FB005E0F1F /* PhotosListViewController.h */,
+				6803EEF41E1C97FB005E0F1F /* PhotosListViewController.m */,
+				6803EF0F1E1CE77D005E0F1F /* ImageHelper.h */,
+				6803EF101E1CE77D005E0F1F /* ImageHelper.m */,
+				6803EF021E1C9D93005E0F1F /* ListCollectionViewCell.h */,
+				6803EF031E1C9D93005E0F1F /* ListCollectionViewCell.m */,
+				6803EF121E1CEF6A005E0F1F /* PhotoListFooterView.h */,
+				6803EF131E1CEF6A005E0F1F /* PhotoListFooterView.m */,
+			);
+			path = PhotosList;
+			sourceTree = "<group>";
+		};
+		6803EF0B1E1CC2D6005E0F1F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6803EF0C1E1CC2F1005E0F1F /* PHAsset+AddFlag.h */,
+				6803EF0D1E1CC2F1005E0F1F /* PHAsset+AddFlag.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6803EEAD1E1C8A13005E0F1F /* WeChatImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6803EEDB1E1C8A13005E0F1F /* Build configuration list for PBXNativeTarget "WeChatImage" */;
+			buildPhases = (
+				6803EEAA1E1C8A13005E0F1F /* Sources */,
+				6803EEAB1E1C8A13005E0F1F /* Frameworks */,
+				6803EEAC1E1C8A13005E0F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatImage;
+			productName = WeChatImage;
+			productReference = 6803EEAE1E1C8A13005E0F1F /* WeChatImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6803EEC61E1C8A13005E0F1F /* WeChatImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6803EEDE1E1C8A13005E0F1F /* Build configuration list for PBXNativeTarget "WeChatImageTests" */;
+			buildPhases = (
+				6803EEC31E1C8A13005E0F1F /* Sources */,
+				6803EEC41E1C8A13005E0F1F /* Frameworks */,
+				6803EEC51E1C8A13005E0F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6803EEC91E1C8A13005E0F1F /* PBXTargetDependency */,
+			);
+			name = WeChatImageTests;
+			productName = WeChatImageTests;
+			productReference = 6803EEC71E1C8A13005E0F1F /* WeChatImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6803EED11E1C8A13005E0F1F /* WeChatImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6803EEE11E1C8A13005E0F1F /* Build configuration list for PBXNativeTarget "WeChatImageUITests" */;
+			buildPhases = (
+				6803EECE1E1C8A13005E0F1F /* Sources */,
+				6803EECF1E1C8A13005E0F1F /* Frameworks */,
+				6803EED01E1C8A13005E0F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6803EED41E1C8A13005E0F1F /* PBXTargetDependency */,
+			);
+			name = WeChatImageUITests;
+			productName = WeChatImageUITests;
+			productReference = 6803EED21E1C8A13005E0F1F /* WeChatImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6803EEA61E1C8A13005E0F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xboker;
+				TargetAttributes = {
+					6803EEAD1E1C8A13005E0F1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PPW9FUQJ5U;
+						ProvisioningStyle = Automatic;
+					};
+					6803EEC61E1C8A13005E0F1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6F62E73Y5J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6803EEAD1E1C8A13005E0F1F;
+					};
+					6803EED11E1C8A13005E0F1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6F62E73Y5J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6803EEAD1E1C8A13005E0F1F;
+					};
+				};
+			};
+			buildConfigurationList = 6803EEA91E1C8A13005E0F1F /* Build configuration list for PBXProject "WeChatImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6803EEA51E1C8A13005E0F1F;
+			productRefGroup = 6803EEAF1E1C8A13005E0F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6803EEAD1E1C8A13005E0F1F /* WeChatImage */,
+				6803EEC61E1C8A13005E0F1F /* WeChatImageTests */,
+				6803EED11E1C8A13005E0F1F /* WeChatImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6803EEAC1E1C8A13005E0F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6803EEC11E1C8A13005E0F1F /* LaunchScreen.storyboard in Resources */,
+				6803EEBE1E1C8A13005E0F1F /* Assets.xcassets in Resources */,
+				6803EEBC1E1C8A13005E0F1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6803EEC51E1C8A13005E0F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6803EED01E1C8A13005E0F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6803EEAA1E1C8A13005E0F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6803EEB91E1C8A13005E0F1F /* ViewController.m in Sources */,
+				6803EF171E1CF798005E0F1F /* FullImageCollectionViewCell.m in Sources */,
+				68FDD24F1E1DDFA6001490F1 /* FullImageHeaderView.m in Sources */,
+				68FDD25B1E1E4949001490F1 /* CustomViewController.m in Sources */,
+				6803EF041E1C9D93005E0F1F /* ListCollectionViewCell.m in Sources */,
+				6803EF111E1CE77D005E0F1F /* ImageHelper.m in Sources */,
+				68FDD2551E1E2B36001490F1 /* ChoosedCollectionViewCell.m in Sources */,
+				6803EF141E1CEF6A005E0F1F /* PhotoListFooterView.m in Sources */,
+				6803EEFB1E1C9C11005E0F1F /* GroupModle.m in Sources */,
+				6803EF1A1E1CFE2C005E0F1F /* FullImageFooterView.m in Sources */,
+				6803EEF51E1C97FB005E0F1F /* PhotosListViewController.m in Sources */,
+				6803EEF81E1C9808005E0F1F /* PhotoFullViewController.m in Sources */,
+				6803EF0E1E1CC2F1005E0F1F /* PHAsset+AddFlag.m in Sources */,
+				6803EEB61E1C8A13005E0F1F /* AppDelegate.m in Sources */,
+				6803EEB31E1C8A13005E0F1F /* main.m in Sources */,
+				68FDD2581E1E31E4001490F1 /* PhotoGroupTableViewCell.m in Sources */,
+				6803EEF21E1C97E2005E0F1F /* PhotoGroupsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6803EEC31E1C8A13005E0F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6803EECC1E1C8A13005E0F1F /* WeChatImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6803EECE1E1C8A13005E0F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6803EED71E1C8A13005E0F1F /* WeChatImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6803EEC91E1C8A13005E0F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6803EEAD1E1C8A13005E0F1F /* WeChatImage */;
+			targetProxy = 6803EEC81E1C8A13005E0F1F /* PBXContainerItemProxy */;
+		};
+		6803EED41E1C8A13005E0F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6803EEAD1E1C8A13005E0F1F /* WeChatImage */;
+			targetProxy = 6803EED31E1C8A13005E0F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6803EEBA1E1C8A13005E0F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6803EEBB1E1C8A13005E0F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6803EEBF1E1C8A13005E0F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6803EEC01E1C8A13005E0F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6803EED91E1C8A13005E0F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 2530810069@qq.com (39FDJ94RM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 2530810069@qq.com (39FDJ94RM7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6803EEDA1E1C8A13005E0F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 2530810069@qq.com (39FDJ94RM7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 2530810069@qq.com (39FDJ94RM7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6803EEDC1E1C8A13005E0F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PPW9FUQJ5U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WeChatImage/PrefixHeaderFile.pch";
+				INFOPLIST_FILE = WeChatImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lmmmcom.xiekunpeng.WeChatImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6803EEDD1E1C8A13005E0F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PPW9FUQJ5U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WeChatImage/PrefixHeaderFile.pch";
+				INFOPLIST_FILE = WeChatImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lmmmcom.xiekunpeng.WeChatImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6803EEDF1E1C8A13005E0F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6F62E73Y5J;
+				INFOPLIST_FILE = WeChatImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiekunpeng.WeChatImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChatImage.app/WeChatImage";
+			};
+			name = Debug;
+		};
+		6803EEE01E1C8A13005E0F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6F62E73Y5J;
+				INFOPLIST_FILE = WeChatImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiekunpeng.WeChatImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChatImage.app/WeChatImage";
+			};
+			name = Release;
+		};
+		6803EEE21E1C8A13005E0F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6F62E73Y5J;
+				INFOPLIST_FILE = WeChatImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiekunpeng.WeChatImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeChatImage;
+			};
+			name = Debug;
+		};
+		6803EEE31E1C8A13005E0F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6F62E73Y5J;
+				INFOPLIST_FILE = WeChatImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiekunpeng.WeChatImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeChatImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6803EEA91E1C8A13005E0F1F /* Build configuration list for PBXProject "WeChatImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6803EED91E1C8A13005E0F1F /* Debug */,
+				6803EEDA1E1C8A13005E0F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6803EEDB1E1C8A13005E0F1F /* Build configuration list for PBXNativeTarget "WeChatImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6803EEDC1E1C8A13005E0F1F /* Debug */,
+				6803EEDD1E1C8A13005E0F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6803EEDE1E1C8A13005E0F1F /* Build configuration list for PBXNativeTarget "WeChatImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6803EEDF1E1C8A13005E0F1F /* Debug */,
+				6803EEE01E1C8A13005E0F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6803EEE11E1C8A13005E0F1F /* Build configuration list for PBXNativeTarget "WeChatImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6803EEE21E1C8A13005E0F1F /* Debug */,
+				6803EEE31E1C8A13005E0F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6803EEA61E1C8A13005E0F1F /* Project object */;
+}
